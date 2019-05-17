@@ -1,0 +1,15 @@
+{
+    "name": "medrom4/mlmgreenwayru",
+    "authors": [
+        {
+            "name": "medrom4",
+            "email": "medikroma@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "mlmgreenwayru\\": "app/"
+        }
+    },
+    "require": {}
+}
