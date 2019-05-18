@@ -114,7 +114,7 @@ a {
 a:active,
 a:focus,
 a:hover {
-    color: #999caa
+    color: #8DC83D
 }
 
 .link {
@@ -166,7 +166,7 @@ h3>a:hover,
 h4>a:hover,
 h5>a:hover,
 h6>a:hover {
-    color: #999caa;
+    color: #8DC83D;
     text-decoration: none
 }
 
@@ -415,7 +415,7 @@ fieldset[disabled] .btn-theme {
 .pricing .pricing-icon {
     display: block;
     font-size: 30px;
-    color: #999caa;
+    color: #8DC83D;
     margin-bottom: 30px
 }
 
@@ -493,7 +493,7 @@ fieldset[disabled] .btn-theme {
 .service .service-icon {
     display: block;
     font-size: 30px;
-    color: #999caa;
+    color: #8DC83D;
     margin-bottom: 30px
 }
 
@@ -760,6 +760,7 @@ fieldset[disabled] .btn-theme {
     transition-property: all;
     transition-timing-function: cubic-bezier(.7, 1, .7, 1)
 }
+
 
 @media (max-width:991px) {
     .header {
@@ -1213,7 +1214,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .color-link-hover {
-    color: #999caa
+    color: #8DC83D
 }
 
 .color-sky-light {
@@ -1241,7 +1242,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .bg-color-link-hover {
-    background: #999caa
+    background: #8DC83D
 }
 
 .bg-color-sky-light {
