@@ -124,14 +124,15 @@ get_template_part('templates/home', 'slider');
 <div class="content-lg container">
 	<div class="row margin-b-40">
 		<div class="col-sm-6">
-			<h2>Latest Products</h2>
-			<p>Десять линеек продукции для тех, кто выбрал осознанный
+			<h2>Наша продукция</h2>
+			<p>Одиннадцать линеек продукции для тех, кто выбрал осознанный
 				экологический подход к своей жизни</p>
 		</div>
 	</div>
 	<!--// end row -->
 
 	<div class="row">
+
 		<!-- Latest Products -->
 		<div class="col-sm-4 sm-margin-b-50">
 			<div class="margin-b-20">
@@ -139,9 +140,9 @@ get_template_part('templates/home', 'slider');
 					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/970x647/01.jpg" alt="Latest Products Image">
 				</div>
 			</div>
-			<h4><a href="#">Triangle Roof</a> <span class="text-uppercase margin-l-20">Management</span></h4>
-			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-			<a class="link" href="#">Read More</a>
+			<h4><a href="#">AQUAMAGIC</a> <span class="text-uppercase margin-l-20">Уборка</span></h4>
+			<p>Новая технология чистоты без химии.</p>
+			<a class="link" href="#">Посмотреть</a>
 		</div>
 		<!-- End Latest Products -->
 
@@ -152,9 +153,9 @@ get_template_part('templates/home', 'slider');
 					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/970x647/02.jpg" alt="Latest Products Image">
 				</div>
 			</div>
-			<h4><a href="#">Curved Corners</a> <span class="text-uppercase margin-l-20">Developmeny</span></h4>
-			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-			<a class="link" href="#">Read More</a>
+			<h4><a href="#">REVITALL</a> <span class="text-uppercase margin-l-20">Здоровье</span></h4>
+			<p>Оздоровительные программы для всего организма.</p>
+			<a class="link" href="#">Посмотреть</a>
 		</div>
 		<!-- End Latest Products -->
 
@@ -165,9 +166,113 @@ get_template_part('templates/home', 'slider');
 					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/970x647/03.jpg" alt="Latest Products Image">
 				</div>
 			</div>
-			<h4><a href="#">Bird On Green</a> <span class="text-uppercase margin-l-20">Design</span></h4>
-			<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-			<a class="link" href="#">Read More</a>
+			<h4><a href="#">AQUAmatic</a> <span class="text-uppercase margin-l-20">Уборка</span></h4>
+			<p>Инновационные системы для уборки.</p>
+			<a class="link" href="#">Посмотреть</a>
+		</div>
+		<!-- End Latest Products -->
+
+		<!-- Latest Products -->
+		<div class="col-sm-4 sm-margin-b-50">
+			<div class="margin-b-20">
+				<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/970x647/04.jpg" alt="Latest Products Image">
+				</div>
+			</div>
+			<h4><a href="#">SHARME ESSENTIAL</a> <span class="text-uppercase margin-l-20"></span></h4>
+			<p>Натуральные аромамасла для широкого применения.</p>
+			<a class="link" href="#">Посмотреть</a>
+		</div>
+		<!-- End Latest Products -->
+
+		<!-- Latest Products -->
+		<div class="col-sm-4 sm-margin-b-50">
+			<div class="margin-b-20">
+				<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/970x647/05.jpg" alt="Latest Products Image">
+				</div>
+			</div>
+			<h4><a href="#">SHARME</a> <span class="text-uppercase margin-l-20">Здоровье</span></h4>
+			<p>Линия сухой косметики и питательных кремов.</p>
+			<a class="link" href="#">Посмотреть</a>
+		</div>
+		<!-- End Latest Products -->
+
+		<!-- Latest Products -->
+		<div class="col-sm-4 sm-margin-b-50">
+			<div class="margin-b-20">
+				<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/970x647/06.jpg" alt="Latest Products Image">
+				</div>
+			</div>
+			<h4><a href="#">ECOPAM</a> <span class="text-uppercase margin-l-20">Здоровье</span></h4>
+			<p>Активный источник жизненной энергии.</p>
+			<a class="link" href="#">Посмотреть</a>
+		</div>
+		<!-- End Latest Products -->
+
+		<!-- Latest Products -->
+		<div class="col-sm-4 sm-margin-b-50">
+			<div class="margin-b-20">
+				<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/970x647/07.jpg" alt="Latest Products Image">
+				</div>
+			</div>
+			<h4><a href="#">HEALTHBERRY</a> <span class="text-uppercase margin-l-20">Здоровье</span></h4>
+			<p>Палитра растворимых ягодных напитков.</p>
+			<a class="link" href="#">Посмотреть</a>
+		</div>
+		<!-- End Latest Products -->
+
+		<!-- Latest Products -->
+		<div class="col-sm-4 sm-margin-b-50">
+			<div class="margin-b-20">
+				<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/970x647/08.jpg" alt="Latest Products Image">
+				</div>
+			</div>
+			<h4><a href="#">IGEN</a> <span class="text-uppercase margin-l-20">Здоровье</span></h4>
+			<p>Генетические тесты для домашнего использования.</p>
+			<a class="link" href="#">Посмотреть</a>
+		</div>
+		<!-- End Latest Products -->
+
+		<!-- Latest Products -->
+		<div class="col-sm-4 sm-margin-b-50">
+			<div class="margin-b-20">
+				<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/970x647/09.jpg" alt="Latest Products Image">
+				</div>
+			</div>
+			<h4><a href="#">TEAVITALL</a> <span class="text-uppercase margin-l-20">Здоровье</span></h4>
+			<p>Изысканная коллекция чайных напитков.</p>
+			<a class="link" href="#">Посмотреть</a>
+		</div>
+		<!-- End Latest Products -->
+
+		<!-- Latest Products -->
+		<div class="col-sm-4 sm-margin-b-50">
+			<div class="margin-b-20">
+				<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/970x647/10.jpg" alt="Latest Products Image">
+				</div>
+			</div>
+			<h4><a href="#">AVITALL</a> <span class="text-uppercase margin-l-20">Здоровье</span></h4>
+			<p>Коктейли для коррекции привычек питания.</p>
+			<a class="link" href="#">Посмотреть</a>
+		</div>
+		<!-- End Latest Products -->
+
+		<!-- Latest Products -->
+		<div class="col-sm-4 sm-margin-b-50">
+			<div class="margin-b-20">
+				<div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+					<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/970x647/11.jpg" alt="Latest Products Image">
+				</div>
+			</div>
+			<h4><a href="#">BAOFIBER</a> <span class="text-uppercase margin-l-20">Здоровье</span></h4>
+			<p>Растворимые напитки для красоты и здоровья.</p>
+			<a class="link" href="#">Посмотреть</a>
 		</div>
 		<!-- End Latest Products -->
 	</div>
@@ -200,6 +305,21 @@ get_template_part('templates/home', 'slider');
 				<div class="swiper-slide">
 					<img class="swiper-clients-img" src="<?php echo get_template_directory_uri(); ?>/img/clients/06.png" alt="Clients Logo">
 				</div>
+				<div class="swiper-slide">
+					<img class="swiper-clients-img" src="<?php echo get_template_directory_uri(); ?>/img/clients/07.png" alt="Clients Logo">
+				</div>
+				<div class="swiper-slide">
+					<img class="swiper-clients-img" src="<?php echo get_template_directory_uri(); ?>/img/clients/08.png" alt="Clients Logo">
+				</div>
+				<div class="swiper-slide">
+					<img class="swiper-clients-img" src="<?php echo get_template_directory_uri(); ?>/img/clients/09.png" alt="Clients Logo">
+				</div>
+				<div class="swiper-slide">
+					<img class="swiper-clients-img" src="<?php echo get_template_directory_uri(); ?>/img/clients/10.png" alt="Clients Logo">
+				</div>
+				<div class="swiper-slide">
+					<img class="swiper-clients-img" src="<?php echo get_template_directory_uri(); ?>/img/clients/11.png" alt="Clients Logo">
+				</div>
 			</div>
 			<!-- End Swiper Wrapper -->
 		</div>
@@ -209,7 +329,7 @@ get_template_part('templates/home', 'slider');
 <!-- End Clients -->
 
 <!-- Testimonials -->
-<div class="content-lg container">
+<div class="content-lg container comment">
 	<div class="row">
 		<div class="col-sm-9">
 			<h2>Отзывы наших клиентов</h2>
@@ -221,12 +341,23 @@ get_template_part('templates/home', 'slider');
 					<div class="swiper-slide">
 						<blockquote class="blockquote">
 							<div class="margin-b-20">
+								Спонж для кухни Greenway AQUAMAGIC SPLITTER.
+							</div>
+							<div class="margin-b-20">
+								Ну что, сегодня приобрела спонж для кухни. Скажу честно, салфетка для посуды мне понравилась больше и результат от неё лучше. Отмывает быстрее и более загрязнённое. Хотя мне в офисе сказали, что именно спонж предназначен для мытья духовок и вытяжки. У меня лучший результат после салфетки для посуды, с жиром она справляется лучше. И стоит в два раза дешевле, как по мне, нет смысла переплачивать.
+							</div>
+							<p><span class="fweight-700 color-link">Людмила Нарочанская</span>. Беларусь, Минск</p>
+						</blockquote>
+					</div>
+					<div class="swiper-slide">
+						<blockquote class="blockquote">
+							<div class="margin-b-20">
 								Салфетки Гринвэй.
 							</div>
 							<div class="margin-b-20">
 								Экологичные, позволяют отказаться от химии, реально оттирают жир и пятна, эстетичный внешний вид.
 							</div>
-							<p><span class="fweight-700 color-link">Людмила Нарочанская</span>. Беларусь, Минск</p>
+							<p><span class="fweight-700 color-link">Irishkus</span>. Россия, Иркутск</p>
 						</blockquote>
 					</div>
 					<div class="swiper-slide">
@@ -236,17 +367,6 @@ get_template_part('templates/home', 'slider');
 							</div>
 							<div class="margin-b-20">
 								Очищает всё! Достоинства: цена, состав, аромат, объем, расход.
-							</div>
-							<p><span class="fweight-700 color-link">Irishkus</span>. Россия, Иркутск</p>
-						</blockquote>
-					</div>
-					<div class="swiper-slide">
-						<blockquote class="blockquote">
-							<div class="margin-b-20">
-								Спонж для кухни Greenway AQUAMAGIC SPLITTER.
-							</div>
-							<div class="margin-b-20">
-								Ну что, сегодня приобрела спонж для кухни. Скажу честно, салфетка для посуды мне понравилась больше и результат от неё лучше. Отмывает быстрее и более загрязнённое. Хотя мне в офисе сказали, что именно спонж предназначен для мытья духовок и вытяжки. У меня лучший результат после салфетки для посуды, с жиром она справляется лучше. И стоит в два раза дешевле, как по мне, нет смысла переплачивать.
 							</div>
 							<p><span class="fweight-700 color-link">Nadin13</span>. Беларусь, Барановичи</p>
 						</blockquote>
