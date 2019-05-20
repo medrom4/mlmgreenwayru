@@ -121,7 +121,7 @@ get_template_part('templates/home', 'slider');
 <!-- End Service -->
 
 <!-- Latest Products -->
-<div class="content-lg container">
+<div class="content-lg container" id="yak1">
 	<div class="row margin-b-40">
 		<div class="col-sm-6">
 			<h2>Наша продукция</h2>
