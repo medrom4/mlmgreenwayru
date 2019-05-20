@@ -7,22 +7,25 @@
 				<!-- Footer -->
 				<div class="footer hidden-print">
 					<div class="footer-block footer-block-one">
-						<div class="footer-logo"></div>
+						<div class="footer-logo">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/logo-footer.svg" alt=" Latest Products Image">
+						</div>
 					</div>
 
 					<div class="footer-block">
 						<h4>Способы оплаты</h4>
 
 						<p>Мы принимаем электронные платежи</p>
-						<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/epay2.png" style="width:100%; alt=" Latest Products Image">
+						<img src="<?php echo get_template_directory_uri(); ?>/img/epay2.png" style="width:100%; alt=" Latest Products Image">
 					</div>
 
 					<div class="footer-block">
 						<h4>Контакты</h4>
 
 						<ul class="footer-nav">
-							<li><b>Телефон:</b><a href="tel:+1234567890"> +375 (33) 664 20 07</a></li>
-							<li><b>Email:</b> <a href="mailto:diana.gw02@gmail.com">diana.gw02@gmail.com</a></li>
+							<li><b><img src="https://img.icons8.com/color/24/000000/viber.png"><img src="https://img.icons8.com/color/24/000000/telegram-app.png"></b><a href="tel:+375336642007">+375 (33) 664 20 07</a></li>
+							<li><b><img src="https://img.icons8.com/color/24/000000/whatsapp.png"></b><a href="tel:+375445577535">+375 (44) 557 75 35</a></li>
+							<li><b><img src="https://img.icons8.com/flat_round/24/000000/secured-letter.png"></b> <a href="mailto:diana.gw02@gmail.com">diana.gw02@gmail.com</a></li>
 						</ul>
 					</div>
 				</div>

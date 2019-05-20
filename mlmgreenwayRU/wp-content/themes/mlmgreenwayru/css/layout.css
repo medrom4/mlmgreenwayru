@@ -202,6 +202,17 @@ h4 {
 	margin-top: 30px !important;
 }
 
+.footer li,
+.footer h4,
+.footer p {
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
 @media (max-width:1280px) {
 	.footer-block {
 		margin: 0 25px;
@@ -598,9 +609,9 @@ fieldset[disabled] .btn-theme {
 }
 
 .footer-logo {
-	width: 250px;
+	width: 250px !important;
 	height: 100px;
-	background: url(../img/logo-footer.svg) no-repeat center / contain;
+	padding: 10px 0;
 }
 
 .footer p,
