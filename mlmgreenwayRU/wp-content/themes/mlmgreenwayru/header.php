@@ -59,10 +59,10 @@
 												?>
 
 
-                    </div>
-                </div>
-                <!-- End Navbar Collapse -->
             </div>
+          </div>
+        <!-- End Navbar Collapse -->
+      </div>
         </nav>
         <!-- Navbar -->
     </header>
