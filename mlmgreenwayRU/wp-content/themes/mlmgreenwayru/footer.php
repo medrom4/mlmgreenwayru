@@ -1,5 +1,5 @@
 <!--========== FOOTER ==========-->
-<footer class="footer">
+<footer class="footer" id="yak2">
 	<!-- Links -->
 	<div class="footer-seperator">
 		<div class="content-lg container">
@@ -37,6 +37,22 @@
 <!-- Back To Top -->
 <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
 <?php wp_footer(); ?>
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".menu").on("click", "a", function(event) {
+			event.preventDefault();
+			var id = $(this).attr('href'),
+				top = $(id).offset().top;
+			$('body,html').animate({
+				scrollTop: top
+			}, 1500);
+		});
+	});
+</script>
+
+
 </body>
 <!-- END BODY -->
 

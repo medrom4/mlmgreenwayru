@@ -5,7 +5,9 @@ if (!defined('ABSPATH')) {
 
 add_action('after_setup_theme', 'theme_setup');
 add_action('wp_print_styles', 'add_my_stylesheet');
-add_action('wp_print_styles', 'add_my_scripts');
+add_action('wp_print_scripts', 'add_my_scripts');
+add_action('init', 'theme_name_register_my_menus');
+add_action('wp_enqueue_scripts', 'my_scripts_method');
 
 if (!function_exists('mlmgreenwayru_setup')) :
 	function theme_setup()
@@ -21,10 +23,18 @@ if (!function_exists('mlmgreenwayru_setup')) :
 		add_image_size('759', 759, 380);
 		add_image_size('377', 377, 380);
 
-		register_nav_menus(array(
-			'menu-menu' => __('Главное меню', 'mlmgreenwayru'),
-			'footer-menu' => __('Меню в подвале', 'mlmgreenwayru'),
-		));
+		function theme_name_register_my_menus()
+		{
+			register_nav_menu('menu-menu', 'Главное меню');
+		}
+
+		function my_scripts_method()
+		{
+			// вместо "jquery-core", можно вписать "jquery", тогда будет отменен еще и jquery-migrate
+			wp_deregister_script('jquery');
+			wp_register_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js');
+			wp_enqueue_script('jquery');
+		}
 
 		function add_my_stylesheet()
 		{
@@ -41,18 +51,14 @@ if (!function_exists('mlmgreenwayru_setup')) :
 
 		function add_my_scripts()
 		{
-			wp_deregister_script('jquery');
-			wp_register_script('jquery', get_template_directory_uri() . '/vendor/jquery.min.js');
-			wp_enqueue_script('jquery');
-
-			wp_enqueue_script('migrate', get_template_directory_uri() . '/vendor/jquery-migrate.min.js', array(), '20151215', true);
-			wp_enqueue_script('bootstrap', get_template_directory_uri() . '/vendor/bootstrap/js/bootstrap.min.js', array(), '20151215', true);
-			wp_enqueue_script('easing', get_template_directory_uri() . '/vendor/jquery.easing.js', array(), '20151215', true);
 			wp_enqueue_script('back-to-top', get_template_directory_uri() . '/vendor/jquery.back-to-top.js', array(), '20151215', true);
-			wp_enqueue_script('smooth', get_template_directory_uri() . '/vendor/jquery.smooth-scroll.js', array(), '20151215', true);
-			wp_enqueue_script('wow', get_template_directory_uri() . '/vendor/jquery.wow.min.js', array(), '20151215', true);
-			wp_enqueue_script('swiper', get_template_directory_uri() . '/vendor/swiper/js/swiper.jquery.min.js', array(), '20151215', true);
+/* 			wp_enqueue_script('smooth', get_template_directory_uri() . '/vendor/jquery.smooth-scroll.js', array(), '20151215', true); */
+			wp_enqueue_script('migrate', get_template_directory_uri() . '/vendor/jquery-migrate.min.js', array(), '20151215', true);
 			wp_enqueue_script('pkgd', get_template_directory_uri() . '/vendor/masonry/jquery.masonry.pkgd.min.js', array(), '20151215', true);
+			wp_enqueue_script('easing', get_template_directory_uri() . '/vendor/jquery.easing.js', array(), '20151215', true);
+			wp_enqueue_script('wow', get_template_directory_uri() . '/vendor/jquery.wow.min.js', array(), '20151215', true);
+			wp_enqueue_script('bootstrap', get_template_directory_uri() . '/vendor/bootstrap/js/bootstrap.min.js', array(), '20151215', true);
+			wp_enqueue_script('swiper', get_template_directory_uri() . '/vendor/swiper/js/swiper.jquery.min.js', array(), '20151215', true);
 			wp_enqueue_script('loaded', get_template_directory_uri() . '/vendor/masonry/imagesloaded.pkgd.min.js', array(), '20151215', true);
 			wp_enqueue_script('layout', get_template_directory_uri() . '/js/layout.min.js', array(), '20151215', true);
 			wp_enqueue_script('wow-min', get_template_directory_uri() . '/js/components/wow.min.js', array(), '20151215', true);

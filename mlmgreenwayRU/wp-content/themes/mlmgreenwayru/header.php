@@ -9,12 +9,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 
-	<?php wp_head(); ?>
+
 
 	<!-- GLOBAL MANDATORY STYLES -->
-
+	
 	<link href="https://fonts.googleapis.com/css?family=Neucha&display=swap&subset=cyrillic" rel="stylesheet">
 
+	<?php wp_head(); ?>
 </head>
 <!-- END HEAD -->
 
@@ -36,7 +37,7 @@
 
 					<!-- Logo -->
 					<div class="logo">
-						<a class="logo-wrap" href="#">
+						<a class="logo-wrap" href="<?php bloginfo('url'); ?>">
 							<img class="logo-img logo-img-main" src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Asentus Logo">
 							<img class="logo-img logo-img-active" src="<?php echo get_template_directory_uri(); ?>/img/logo-dark.png" alt="Asentus Logo">
 						</a>
@@ -48,15 +49,10 @@
 				<div class="collapse navbar-collapse nav-collapse">
 					<div class="menu-container>
 
-                        <?php
-												$argc = [
+                        <?php wp_nav_menu(array(
 													'theme_location' => 'menu-menu',
 													'container' => 'nav',
-													'container_class' => 'main-menu'
-												];
-
-												wp_nav_menu($args);
-												?>
+												)); ?>
 
 
             </div>

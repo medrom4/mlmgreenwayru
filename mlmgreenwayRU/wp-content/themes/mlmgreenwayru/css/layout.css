@@ -42,7 +42,7 @@ p {
 	font-size: 13px;
 	font-weight: 400;
 	font-family: 'Neucha', cursive;
-	color: #a6a7aa;
+	color: #DCDCDC;
 	line-height: 1.4;
 	margin-bottom: 15px;
 	letter-spacing: 0.1em !important;
@@ -959,6 +959,10 @@ fieldset[disabled] .btn-theme {
 	.header .nav-item-hover:after {
 		position: absolute;
 		top: 19px;
+	}
+
+	ul.menu {
+		display: block !important;
 	}
 }
 
